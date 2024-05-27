@@ -7,9 +7,9 @@ public class XeOto {
     private float dongco;
 
    public XeOto(String hangxe, int namsanxuat, float dongco) {
-        this.hangxe = setHangxe(hangxe);
-        this.namsanxuat = setNamsanxuat(namsanxuat);
-        this.dongco = setDongco(dongco);
+        this.setHangxe(hangxe);
+        this.setNamsanxuat(namsanxuat);
+        this.setDongco(dongco);
     }   
 
     public String getHangxe() {
@@ -54,3 +54,4 @@ public class XeOto {
 
 		
 	}
+
