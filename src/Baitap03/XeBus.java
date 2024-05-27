@@ -6,7 +6,12 @@ public class XeBus {
     private float dongco;
     private int soghe;
 
-    
+     public XeBus(String hangxe, int namsanxuat, float dongco, int soghe) {
+        this.hangxe = setHangxe(hangxe);
+        this.namsanxuat = setNamsanxuat(namsanxuat);
+        this.dongco = setDongco(dongco);
+        this.soghe = setSoghe(soghe);
+    } 
 
     public String getHangxe() {
         return hangxe;
@@ -58,11 +63,6 @@ public class XeBus {
         return "XeBus{" + "hangxe=" + hangxe + ", namsanxuat=" + namsanxuat + ", dongco=" + dongco + ", soghe=" + soghe + '}';
     }
     
-    public XeBus(String hangxe, int namsanxuat, float dongco, int soghe) {
-        this.hangxe = setHangxe(hangxe);
-        this.namsanxuat = setNamsanxuat(namsanxuat);
-        this.dongco = setDongco(dongco);
-        this.soghe = setSoghe(soghe);
-    }
+  
 
 }
