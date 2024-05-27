@@ -7,10 +7,10 @@ public class XeBus {
     private int soghe;
 
      public XeBus(String hangxe, int namsanxuat, float dongco, int soghe) {
-        this.hangxe = setHangxe(hangxe);
-        this.namsanxuat = setNamsanxuat(namsanxuat);
-        this.dongco = setDongco(dongco);
-        this.soghe = setSoghe(soghe);
+        this.setHangxe(hangxe);
+        this.setNamsanxuat(namsanxuat);
+        this.setDongco(dongco);
+        this.setSoghe(soghe);
     } 
 
     public String getHangxe() {
