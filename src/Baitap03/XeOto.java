@@ -6,7 +6,11 @@ public class XeOto {
     private int namsanxuat;
     private float dongco;
 
-   
+   public XeOto(String hangxe, int namsanxuat, float dongco) {
+        this.hangxe = setHangxe(hangxe);
+        this.namsanxuat = setNamsanxuat(namsanxuat);
+        this.dongco = setDongco(dongco);
+    }   
 
     public String getHangxe() {
         return hangxe;
@@ -47,11 +51,6 @@ public class XeOto {
     } 
 
     
-    
-    public XeOto(String hangxe, int namsanxuat, float dongco) {
-        this.hangxe = setHangxe(hangxe);
-        this.namsanxuat = setNamsanxuat(namsanxuat);
-        this.dongco = setDongco(dongco);
-    }
+
 		
 	}
